@@ -84,7 +84,7 @@ const Content = () => {
               />
             </div>
 
-            <div className="contact__form-div">
+            <div className="contact__form-div contact__form-area">
               <label htmlFor="" className="contact__form-tag">
                 Project
               </label>
