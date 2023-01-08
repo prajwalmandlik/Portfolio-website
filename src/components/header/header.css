@@ -31,7 +31,7 @@
     flex-direction: column;
     align-items: center;
     font-size: var(--small-font-size);
-    color: var(--title-color);
+    color: hsl(var(--hue), var(--sat), 30%);
     font-weight: var(--font-medium);
     transition: .3s;
 }
@@ -45,7 +45,10 @@
 .active-link,
 .nav__link:hover{
     color: var(--title-color-dark);
-
+}
+/* Change background header */
+.scroll-header{
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* ================ BREAKPOINS ===============*/

@@ -7,6 +7,8 @@ import Skills from "./components/skills/Skills";
 import Services from "./components/services/Services";
 import Qualification from "./components/qualification/Qualification";
 import Content from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
+import ScrollUp from "./components/scrollUp/Scrollup";
 
 
 const App = () => {
@@ -22,6 +24,9 @@ const App = () => {
       <Qualification />
       <Content />
     </main>
+
+    <Footer />
+    <ScrollUp />
     </>
   )
 }
