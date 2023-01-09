@@ -15,9 +15,9 @@ const About = () => {
 
             <div className="about__data">
 
-                <Info />
+                <p className="about__description">Computer science and engineering student with over a year of hands-on experience building web applications. possess experience with 5+ programming languages, particularly JavaScript and Python.</p>
 
-                <p className="about__description">Computer science and engineering student with over a year of hands-on experience building web applications. possess experience with 5+ programming languages, particularly JavaScript and Python. Looking for a role where i can grow and learn from experienced team members while drawing on project.</p>
+                <Info />
 
                 <a download="" href={CV} className="button button--flex">Download CV 
                 <svg

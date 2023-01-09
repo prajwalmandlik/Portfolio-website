@@ -47,7 +47,7 @@ const Content = () => {
               <h3 className="contact__card-title">Linkedin</h3>
               <span className="contact__card-data">Prajwal Mandlik</span>
 
-              <a href="d" className="contact__button">
+              <a href="https://www.linkedin.com/in/prajwal-mandlik-55863a234" className="contact__button">
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
