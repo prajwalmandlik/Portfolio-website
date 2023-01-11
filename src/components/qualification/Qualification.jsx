@@ -75,7 +75,7 @@ const Qualification = () => {
                 </div>
 
                 <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content "}>
-                    <div className="qualification__data">
+                    {/* <div className="qualification__data">
                         <div>
                             <h3 className="qualification__title">B.Tech In Computer Science And Engineering</h3>
                             <span className="qualification__subtitle">G H Raisoni Institute of Engineering and Business Management</span>
@@ -120,7 +120,8 @@ const Qualification = () => {
                             <span className="qualification__rounder"></span>
                             <span className="qualification__line"></span>
                         </div>
-                    </div>
+                    </div> */}
+                    <div className='message'>Looking for good opportunity in web develpement. I'm ideally looking for a Forntend develper role. For a greate understanding of my professional qualificatons, you can find my resume attached in about section</div>
                 </div>
             </div>
         </div>

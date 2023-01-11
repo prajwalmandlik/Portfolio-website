@@ -81,6 +81,9 @@
     transform: translate(6px, -7px);
 }
 
+.message {
+    text-align: center;
+}
 /* ================ BREAKPOINS ===============*/
 /* For large devices  */
 @media screen and (max-width: 992px) {
