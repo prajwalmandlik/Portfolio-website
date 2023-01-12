@@ -28,10 +28,14 @@
 }
 
 .about__info-item {
-    margin-bottom: var(--mb-1);
+    margin-bottom: var(--mb-0-5);
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+}
+
+.about__info-arrow-icon {
+    font-size: 1.5rem;
 }
 
 

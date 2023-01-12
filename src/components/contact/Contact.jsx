@@ -1,7 +1,43 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import "./contact.css";
 
 const Content = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_0zbwjhy",
+        "template_tikccj8",
+        form.current,
+        "vG8UL_ZLcqLx4SONE"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          toast.success('Message Send', {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            });
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <section className="contact section" id="contact">
       <h2 className="section_title">Get in touch</h2>
@@ -47,7 +83,10 @@ const Content = () => {
               <h3 className="contact__card-title">Linkedin</h3>
               <span className="contact__card-data">Prajwal Mandlik</span>
 
-              <a href="https://www.linkedin.com/in/prajwal-mandlik-55863a234" className="contact__button">
+              <a
+                href="https://www.linkedin.com/in/prajwal-mandlik-55863a234"
+                className="contact__button"
+              >
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
@@ -57,7 +96,7 @@ const Content = () => {
         <div className="contact__content">
           <h3 className="contact__title">Write me your project</h3>
 
-          <form action="" className="contact__form">
+          <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
               <label htmlFor="" className="contact__form-tag">
                 Name
@@ -68,6 +107,7 @@ const Content = () => {
                 id=""
                 className="contact__form-input"
                 placeholder="Insert your name"
+                required
               />
             </div>
 
@@ -81,6 +121,7 @@ const Content = () => {
                 id=""
                 className="contact__form-input"
                 placeholder="In your email"
+                required
               />
             </div>
 
@@ -95,10 +136,11 @@ const Content = () => {
                 rows="10"
                 className="contact__form-input"
                 placeholder="Write your project"
+                required
               ></textarea>
             </div>
 
-            <button href="#contact" className="button button--flex">
+            <button type="submit" href="#contact" className="button button--flex">
               send Message
               <svg
                 class="button__icon"
@@ -118,6 +160,7 @@ const Content = () => {
                 ></path>
               </svg>
             </button>
+            <ToastContainer />
           </form>
         </div>
       </div>
