@@ -40,7 +40,7 @@ const Footer = () => {
                         <i class="uil uil-linkedin-alt"></i>
                     </a>
 
-                    <a href="https://github.com/prajwal278" className="footer__social-link">
+                    <a href="https://github.com/prajwalmandlik" className="footer__social-link">
                         <i class="uil uil-github-alt"></i>
                     </a>
                 </div>
