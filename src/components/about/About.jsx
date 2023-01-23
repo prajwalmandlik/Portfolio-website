@@ -15,7 +15,7 @@ const About = () => {
 
             <div className="about__data">
 
-                <p className="about__description">As a computer science and engineering student with over a year of experience developing web applications, I have expertise in various programming languages, including JavaScript, c++, and Python. I am eager to join a team where I can continue to learn and grow as a developer, utilizing my skills and experiences to make valuable contributions to projects.</p>
+                <p className="about__description">As a computer science and engineering student with over a year of experience developing web applications, I have expertise in various programming languages, including JavaScript, c++, and Python.</p>
 
                 <Info />
 
