@@ -1,7 +1,6 @@
 # Personal portfolio website
 
-This is my personal portfolio website 
-It contains my educational qualifications, my skills in various fields like technical skills and soft skills. I have also mention my contact details, this is a short and crips website to know my capabilities, interest and what kind of person I am 
+Welcome to my portfolio website! Here is a showcase of my skills and experience in software development. My portfolio includes my professional and academic projects, which demonstrate my ability to work on various coding languages and frameworks. Additionally, you will find information about my background and education. This website is designed to comprehensively understand my capabilities and qualifications as a software developer.
 
 ## Technology used to build this website 
 - HTML
