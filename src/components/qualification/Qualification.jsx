@@ -121,7 +121,7 @@ const Qualification = () => {
                             <span className="qualification__line"></span>
                         </div>
                     </div> */}
-                    <div className='message'>I am actively seeking a software development opportunity, specifically in a developer role. To gain a comprehensive understanding of my professional qualifications, please refer to my resume in the "About" section of this message.</div>
+                    <div className='message'>I am actively seeking a software development opportunity, specifically in a developer role. To gain a comprehensive understanding of my professional qualifications, please refer to my resume in the "About" section of this website.</div>
                 </div>
             </div>
         </div>
