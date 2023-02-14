@@ -22,7 +22,7 @@ const Works = () => {
   const handleClick = (e, index) => {
     setItem({ name: e.target.textContent.toLowerCase() });
     setActive(index);
-  };
+  }; 
   return (
     <div>
       <div className="work__filters">

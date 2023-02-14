@@ -11,7 +11,7 @@ const WorksItems = ({item}) => {
         </a>
       </div>
     </div>
-  )
+  ) 
 }
 
 export default WorksItems
