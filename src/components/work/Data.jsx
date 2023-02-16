@@ -9,7 +9,7 @@ export const projectsData = [
         id: 1 ,
         image : Work1,
         title: 'Pragmatic Lab',
-        category : 'magor',
+        category : 'major',
     },
     {
         id: 2 ,
@@ -27,13 +27,13 @@ export const projectsData = [
         id: 4 ,
         image : Work4,
         title: 'Survey Form',
-        category : 'small',
+        category : 'mini',
     },
     {
         id: 5 ,
         image : Work5,
         title: 'Tribute Page',
-        category : 'small',
+        category : 'mini',
     },
 ];
 
@@ -42,12 +42,12 @@ export const projectsNav = [
         name: 'all' ,
     },
     {
-        name: 'magor' ,
+        name: 'major' ,
     },
     {
         name: 'minor' ,
     },
     {
-        name: 'small' ,
+        name: 'mini' ,
     },
 ]

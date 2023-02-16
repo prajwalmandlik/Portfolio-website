@@ -1,11 +1,9 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import toast, { Toaster } from "react-hot-toast";
 import "./contact.css";
 
 const Content = () => {
-
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -21,16 +19,7 @@ const Content = () => {
       .then(
         (result) => {
           console.log(result.text);
-          toast.success('Message Send', {
-            position: "top-center",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-            theme: "light",
-            });
+          toast.success("Message send");
         },
         (error) => {
           console.log(error.text);
@@ -140,7 +129,11 @@ const Content = () => {
               ></textarea>
             </div>
 
-            <button type="submit" href="#contact" className="button button--flex">
+            <button
+              type="submit"
+              href="#contact"
+              className="button button--flex"
+            >
               send Message
               <svg
                 class="button__icon"
@@ -160,7 +153,7 @@ const Content = () => {
                 ></path>
               </svg>
             </button>
-            <ToastContainer />
+            <Toaster position="top-center" reverseOrder={false} />
           </form>
         </div>
       </div>
