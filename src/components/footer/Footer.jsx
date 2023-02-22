@@ -46,7 +46,7 @@ const Footer = () => {
                 </div>
 
                 <span className="footer__copy">Thanks for seeing my website.,<br />
-Designed by Prajwal Mandlik with the help of &#169;crypticalcoder</span>
+Designed by Prajwal Mandlik</span>
             </div>
         </footer>
     );
