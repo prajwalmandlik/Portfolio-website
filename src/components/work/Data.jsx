@@ -1,8 +1,8 @@
 import Work1 from "../../assets/work1.jpg";
 import Work2 from "../../assets/work2.jpg";
 import Work3 from "../../assets/work3.jpg";
-import Work4 from "../../assets/work4.jpg";
-import Work5 from "../../assets/work5.jpg";
+import Work4 from "../../assets/crypto.jpg";
+import Work5 from "../../assets/website.jpg";
 
 export const projectsData = [
     {
@@ -10,30 +10,35 @@ export const projectsData = [
         image : Work1,
         title: 'Pragmatic Lab',
         category : 'major',
+        link : "https://drive.google.com/file/d/1tndu83i2T7Yd9ZM48QbKlWh571UB7oK_/view?usp=sharing "
     },
     {
         id: 2 ,
         image : Work2,
         title: 'product landing page',
-        category : 'minor',
+        category : 'mini',
+        link : "https://prajwalmandlik.github.io/product-landing-page/"
     },
     {
         id: 3 ,
         image : Work3,
         title: 'Perosnal Portfoilo',
         category : 'minor',
+        link : "https://portfolio-prajwalmandlik.vercel.app/"
     },
     {
         id: 4 ,
         image : Work4,
-        title: 'Survey Form',
-        category : 'mini',
+        title: 'Crypto scout',
+        category : 'minor',
+        link : "https://crypto-scout.vercel.app/"
     },
     {
         id: 5 ,
         image : Work5,
-        title: 'Tribute Page',
-        category : 'mini',
+        title: 'Startup website',
+        category : 'minor',
+        link : "https://flareglobalsoft.com/"
     },
 ];
 

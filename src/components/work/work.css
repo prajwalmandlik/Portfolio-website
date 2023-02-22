@@ -65,6 +65,15 @@
     color: var(--container-color);
 }
 
+.work__button-icon {
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.work__button:hover .work__button-icon{
+    transform: translateX(00.25rem);
+}
+
 /* ================ BREAKPOINS ===============*/
 /* For large devices  */
 @media screen and (max-width: 992px) {

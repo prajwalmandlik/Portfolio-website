@@ -31,7 +31,7 @@ const Info = () => {
         <li className="about__info-item">
           <i class="bx bx-chevron-right about__info-arrow-icon"></i>
           <div>
-            <strong>Age:</strong> <span>20</span>
+            <strong>website:</strong> <span>https://portfolio-prajwalmandlik.vercel.app/</span>
           </div>
         </li>
         <li className="about__info-item">
