@@ -10,25 +10,24 @@ import Content from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollUp/Scrollup";
 import Work from "./components/work/Work";
+import { inject } from "@vercel/analytics/*";
 
-
+inject();
 const App = () => {
   return (
     <>
-    <Header />
-
-    <main className="main">
-      <Home />
-      <About />
-      <Skills />
-      <Services />
-      <Qualification />
-      <Work />
-      <Content />
-    </main>
-
-    <Footer />
-    <ScrollUp />
+      <Header />
+      <main className="main">
+        <Home />
+        <About />
+        <Skills />
+        <Services />
+        <Qualification />
+        <Work />
+        <Content />
+      </main>
+      <Footer />
+      <ScrollUp />
     </>
   )
 }
