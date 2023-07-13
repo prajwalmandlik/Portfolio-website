@@ -10,9 +10,8 @@ import Content from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollUp/Scrollup";
 import Work from "./components/work/Work";
-import { inject } from "@vercel/analytics/*";
+import { Analytics } from '@vercel/analytics/react';
 
-inject();
 const App = () => {
   return (
     <>
@@ -25,6 +24,7 @@ const App = () => {
         <Qualification />
         <Work />
         <Content />
+        <Analytics />
       </main>
       <Footer />
       <ScrollUp />
